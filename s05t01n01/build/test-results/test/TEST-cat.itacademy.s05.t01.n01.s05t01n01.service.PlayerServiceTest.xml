@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cat.itacademy.s05.t01.n01.s05t01n01.service.PlayerServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-01-29T16:47:57" hostname="GEARBOX" time="0.166">
+  <properties/>
+  <testcase name="testUpdatePlayerScoreByName()" classname="cat.itacademy.s05.t01.n01.s05t01n01.service.PlayerServiceTest" time="0.155"/>
+  <testcase name="testCreatePlayer()" classname="cat.itacademy.s05.t01.n01.s05t01n01.service.PlayerServiceTest" time="0.003"/>
+  <testcase name="testUpdatePlayerName()" classname="cat.itacademy.s05.t01.n01.s05t01n01.service.PlayerServiceTest" time="0.003"/>
+  <testcase name="testGetPlayerById_PlayerExists()" classname="cat.itacademy.s05.t01.n01.s05t01n01.service.PlayerServiceTest" time="0.001"/>
+  <testcase name="testGetPlayerById_PlayerNotFound()" classname="cat.itacademy.s05.t01.n01.s05t01n01.service.PlayerServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cat.itacademy.s05.t01.n01.s05t01n01.controller.PlayerControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-29T16:47:56" hostname="GEARBOX" time="0.596">
+  <properties/>
+  <testcase name="testChangePlayerName()" classname="cat.itacademy.s05.t01.n01.s05t01n01.controller.PlayerControllerTest" time="0.596"/>
+  <system-out><![CDATA[2025-01-29T17:47:56.937+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e085259
+2025-01-29T17:47:56.938+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-01-29T17:47:56.959+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-01-29T17:47:56.960+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-01-29T17:47:56.961+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-01-29T17:47:56.961+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2025-01-29T17:47:56.962+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2025-01-29T17:47:56.965+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'cat.itacademy.s05.t01.n01.s05t01n01.controller.PlayerController'
+2025-01-29T17:47:56.969+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'delegatingWebFluxConfiguration'
+2025-01-29T17:47:56.972+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webFluxConfigurer'
+2025-01-29T17:47:56.975+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webHandler'
+2025-01-29T17:47:56.976+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2025-01-29T17:47:56.977+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webFluxContentTypeResolver'
+2025-01-29T17:47:56.978+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'webFluxContentTypeResolver'
+2025-01-29T17:47:56.989+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] s.w.r.r.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2025-01-29T17:47:56.989+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'routerFunctionMapping'
+2025-01-29T17:47:56.990+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'serverCodecConfigurer'
+2025-01-29T17:47:56.992+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'serverCodecConfigurer'
+2025-01-29T17:47:56.993+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'resourceHandlerMapping'
+2025-01-29T17:47:56.994+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'resourceUrlProvider'
+2025-01-29T17:47:56.995+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'resourceUrlProvider'
+2025-01-29T17:47:56.996+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2025-01-29T17:47:56.997+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webFluxAdapterRegistry'
+2025-01-29T17:47:56.998+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webFluxConversionService'
+2025-01-29T17:47:57.004+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webFluxValidator'
+2025-01-29T17:47:57.014+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxAdapterRegistry'
+2025-01-29T17:47:57.014+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'serverCodecConfigurer'
+2025-01-29T17:47:57.014+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxConversionService'
+2025-01-29T17:47:57.014+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxContentTypeResolver'
+2025-01-29T17:47:57.014+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxValidator'
+2025-01-29T17:47:57.017+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.w.r.r.m.a.ControllerMethodResolver   : ControllerAdvice beans: none
+2025-01-29T17:47:57.017+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2025-01-29T17:47:57.018+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'simpleHandlerAdapter'
+2025-01-29T17:47:57.018+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webFluxWebSocketHandlerAdapter'
+2025-01-29T17:47:57.019+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'responseEntityResultHandler'
+2025-01-29T17:47:57.020+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'responseEntityResultHandler' via factory method to bean named 'webFluxAdapterRegistry'
+2025-01-29T17:47:57.020+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'responseEntityResultHandler' via factory method to bean named 'serverCodecConfigurer'
+2025-01-29T17:47:57.020+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'responseEntityResultHandler' via factory method to bean named 'webFluxContentTypeResolver'
+2025-01-29T17:47:57.021+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'responseBodyResultHandler'
+2025-01-29T17:47:57.022+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'responseBodyResultHandler' via factory method to bean named 'webFluxAdapterRegistry'
+2025-01-29T17:47:57.022+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'responseBodyResultHandler' via factory method to bean named 'serverCodecConfigurer'
+2025-01-29T17:47:57.022+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'responseBodyResultHandler' via factory method to bean named 'webFluxContentTypeResolver'
+2025-01-29T17:47:57.023+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewResolutionResultHandler'
+2025-01-29T17:47:57.023+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewResolutionResultHandler' via factory method to bean named 'webFluxAdapterRegistry'
+2025-01-29T17:47:57.024+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewResolutionResultHandler' via factory method to bean named 'webFluxContentTypeResolver'
+2025-01-29T17:47:57.024+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'serverResponseResultHandler'
+2025-01-29T17:47:57.025+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'serverResponseResultHandler' via factory method to bean named 'serverCodecConfigurer'
+2025-01-29T17:47:57.026+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'responseStatusExceptionHandler'
+2025-01-29T17:47:57.027+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'localeContextResolver'
+2025-01-29T17:47:57.037+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.w.s.adapter.HttpWebHandlerAdapter    : enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-29T17:47:57.155+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.w.r.f.client.ExchangeFunctions       : [3df54fd5] HTTP PUT /player/1
+2025-01-29T17:47:57.169+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.t.w.r.server.HttpHandlerConnector    : Writing client request for  PUT "/player/1"
+2025-01-29T17:47:57.187+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.core.codec.CharSequenceEncoder       : [3df54fd5] Writing "Jane Doe"
+2025-01-29T17:47:57.195+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.t.w.r.server.HttpHandlerConnector    : Invoking HttpHandler for  PUT "/player/1"
+2025-01-29T17:47:57.204+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [5e1ff293] HTTP PUT "/player/1"
+2025-01-29T17:47:57.229+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] s.w.r.r.m.a.RequestMappingHandlerMapping : [5e1ff293] Mapped to cat.itacademy.s05.t01.n01.s05t01n01.controller.PlayerController#changePlayerName(Long, String)
+2025-01-29T17:47:57.245+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] .r.m.a.RequestBodyMethodArgumentResolver : [5e1ff293] Content-Type:application/json
+2025-01-29T17:47:57.246+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] .r.m.a.RequestBodyMethodArgumentResolver : [5e1ff293] 0..1 [java.lang.String]
+2025-01-29T17:47:57.266+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.core.codec.StringDecoder             : [5e1ff293] Decoded "Jane Doe"
+2025-01-29T17:47:57.297+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.w.r.r.m.a.ResponseBodyResultHandler  : [5e1ff293] Using 'application/json' given [*/*] and supported [application/json, application/*+json, application/x-ndjson, text/event-stream]
+2025-01-29T17:47:57.298+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.w.r.r.m.a.ResponseBodyResultHandler  : [5e1ff293] 0..1 [cat.itacademy.s05.t01.n01.s05t01n01.model.Player]
+2025-01-29T17:47:57.308+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.http.codec.json.Jackson2JsonEncoder  : [5e1ff293] Encoding [cat.itacademy.s05.t01.n01.s05t01n01.model.Player@37d9ca4d]
+2025-01-29T17:47:57.327+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.t.w.r.server.HttpHandlerConnector    : Creating client response for  PUT "/player/1"
+2025-01-29T17:47:57.330+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [5e1ff293] Completed 200 OK
+2025-01-29T17:47:57.335+01:00 DEBUG 19608 --- [s05t01n01] [     parallel-2] o.s.w.r.f.client.ExchangeFunctions       : [3df54fd5] [4087df57] Response 200 OK
+2025-01-29T17:47:57.389+01:00 DEBUG 19608 --- [s05t01n01] [    Test worker] o.s.http.codec.json.Jackson2JsonDecoder  : [3df54fd5] [4087df57] Decoded [cat.itacademy.s05.t01.n01.s05t01n01.model.Player@3445ddf2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
