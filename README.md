@@ -31,3 +31,7 @@ Move to the base folder of the project you want to run and:
   ```sh
   ./gradlew bootRun
   ```
+### For API endpoints and usage, refer to the **Swagger UI**:
+```sh
+http://localhost:8080/swagger-ui/index.html
+```
