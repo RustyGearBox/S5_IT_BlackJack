@@ -7,11 +7,13 @@ Mockito. Furthermore, Swagger is integrated to facilitate automatic API document
 
 ## Technologies used
 - Java 21
-- Spring WebFlux 
-- MySQL (players)
-- MongoDB (game persistence)
-- Spring WebFlux 
-- Swagger(API documentation)
+- Spring WebFlux
+- Spring R2DBC
+- MySQL - Players
+- MongoDB - Game persistence
+- Swagger - API documentation
+- Mockito
+- JUnit
 
 ## To run a project:
 
