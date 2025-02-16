@@ -12,3 +12,20 @@ Mockito. Furthermore, Swagger is integrated to facilitate automatic API document
 - MongoDB (game persistence)
 - Spring WebFlux 
 - Swagger(API documentation)
+
+## To run a project:
+
+Move to the base folder of the project you want to run and:
+
+- **Build the project:**
+  ```sh
+  ./gradlew build
+  ```
+- **Clean the project:**
+  ```sh
+  ./gradlew clean
+  ```
+- **Run the application:**
+  ```sh
+  ./gradlew bootRun
+  ```
